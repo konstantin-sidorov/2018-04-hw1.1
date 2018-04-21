@@ -33,9 +33,9 @@ public class Main {
     public String toString() {
         return com.google.common.base.MoreObjects.toStringHelper(this)
                 .omitNullValues()
-                .add("lastname",this.last_name)
-                .add("firstname",this.first_name)
-                .add("middlename",this.middle_name)
+                .add("LastName",this.last_name)
+                .add("FirstName",this.first_name)
+                .add("MiddleName",this.middle_name)
                 .toString();
     }
 }
